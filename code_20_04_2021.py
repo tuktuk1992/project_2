@@ -27,8 +27,6 @@ patients_df['Health_Risk'] = patients_df['BMI'].apply(lambda x: 'Malnutrition Ri
                                         "Risk" if  x>40 else "Very high Risk" ))))
 
 
-
-
 #Printing dataframe
 print(patients_df)
 
